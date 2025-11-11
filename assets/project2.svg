@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="mapGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8d5c4"/>
+      <stop offset="100%" stop-color="#d4c5b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#mapGrad)"/>
+  
+  <!-- Mobile phone frame -->
+  <g>
+    <!-- Phone bezel -->
+    <rect x="420" y="40" width="440" height="640" rx="45" fill="#1a1a1a" stroke="#444" stroke-width="3"/>
+    
+    <!-- Screen -->
+    <rect x="445" y="70" width="390" height="580" rx="35" fill="#e8d5c4"/>
+    
+    <!-- Status bar -->
+    <rect x="445" y="70" width="390" height="28" fill="#2d1810" rx="35 35 0 0"/>
+    <text x="460" y="88" font-family="Inter, sans-serif" font-size="9" fill="white">12.54</text>
+    <text x="800" y="88" font-family="Inter, sans-serif" font-size="8" fill="white">40% 📡</text>
+    
+    <!-- Map area with geographic elements -->
+    <rect x="445" y="98" width="390" height="460" fill="#d4c5b0"/>
+    
+    <!-- Rivers (blue curved lines) -->
+    <path d="M 460 150 Q 500 180 480 250 T 520 350" stroke="#6ba3d4" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M 600 120 Q 620 200 610 300" stroke="#87ceeb" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M 700 140 Q 750 160 780 240" stroke="#8ab8d4" stroke-width="2.5" fill="none" opacity="0.6"/>
+    
+    <!-- Region boundaries (purple lines) -->
+    <path d="M 480 100 Q 550 130 620 100" stroke="#b19cd9" stroke-width="2" fill="none" stroke-dasharray="3,2" opacity="0.6"/>
+    <path d="M 650 200 L 750 180 L 780 280" stroke="#b19cd9" stroke-width="2" fill="none" stroke-dasharray="3,2" opacity="0.6"/>
+    
+    <!-- Geographic markers (orange triangles) -->
+    <!-- Volcano/Peak markers scattered across map -->
+    <polygon points="470,140 475,155 465,155" fill="#d4682a"/>
+    <polygon points="500,170 505,185 495,185" fill="#d4682a"/>
+    <polygon points="530,190 535,205 525,205" fill="#d4682a"/>
+    <polygon points="560,140 565,155 555,155" fill="#d4682a"/>
+    <polygon points="590,160 595,175 585,175" fill="#d4682a"/>
+    <polygon points="620,130 625,145 615,145" fill="#d4682a"/>
+    <polygon points="650,170 655,185 645,185" fill="#d4682a"/>
+    <polygon points="680,150 685,165 675,165" fill="#d4682a"/>
+    <polygon points="710,200 715,215 705,215" fill="#d4682a"/>
+    <polygon points="740,160 745,175 735,175" fill="#d4682a"/>
+    <polygon points="770,190 775,205 765,205" fill="#d4682a"/>
+    <polygon points="520,240 525,255 515,255" fill="#d4682a"/>
+    <polygon points="550,280 555,295 545,295" fill="#d4682a"/>
+    <polygon points="600,320 605,335 595,335" fill="#d4682a"/>
+    <polygon points="700,290 705,305 695,305" fill="#d4682a"/>
+    
+    <!-- Location marker (blue) -->
+    <circle cx="615" cy="320" r="6" fill="#4a90e2"/>
+    <circle cx="615" cy="320" r="3" fill="#2e5c8a"/>
+    
+    <!-- Left sidebar - Zoom controls -->
+    <g>
+      <!-- Zoom in -->
+      <rect x="460" y="120" width="32" height="32" rx="8" fill="white"/>
+      <text x="476" y="141" font-family="Arial" font-size="22" fill="#2d1810" text-anchor="middle">+</text>
+      
+      <!-- Zoom out -->
+      <rect x="460" y="160" width="32" height="32" rx="8" fill="white"/>
+      <text x="476" y="181" font-family="Arial" font-size="22" fill="#2d1810" text-anchor="middle">−</text>
+      
+      <!-- Locate -->
+      <rect x="460" y="200" width="32" height="32" rx="8" fill="white"/>
+      <circle cx="476" cy="216" r="4" fill="#2d1810"/>
+      <circle cx="476" cy="216" r="2.5" fill="white"/>
+    </g>
+    
+    <!-- Right side - Action buttons (red FABs) -->
+    <g>
+      <!-- Draw Polyline -->
+      <circle cx="800" cy="140" r="20" fill="#dc3545"/>
+      <line x1="788" y1="128" x2="812" y2="152" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="788" y1="152" x2="812" y2="128" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+      
+      <!-- Draw Polygon -->
+      <circle cx="800" cy="190" r="20" fill="#dc3545"/>
+      <circle cx="800" cy="190" r="2" fill="white"/>
+      <circle cx="810" cy="180" r="2" fill="white"/>
+      <circle cx="800" cy="170" r="2" fill="white"/>
+      <line x1="800" y1="190" x2="810" y2="180" stroke="white" stroke-width="1.5"/>
+      <line x1="810" y1="180" x2="800" y2="170" stroke="white" stroke-width="1.5"/>
+      <line x1="800" y1="170" x2="800" y2="190" stroke="white" stroke-width="1.5"/>
+      
+      <!-- Delete -->
+      <circle cx="800" cy="240" r="20" fill="#dc3545"/>
+      <rect x="792" y="232" width="16" height="16" fill="white"/>
+      
+      <!-- Save -->
+      <circle cx="800" cy="290" r="20" fill="#dc3545"/>
+      <rect x="795" y="282" width="10" height="8" fill="white"/>
+      <polygon points="792,290 800,296 808,290" fill="white"/>
+      
+      <!-- Stop -->
+      <circle cx="800" cy="340" r="20" fill="#dc3545"/>
+      <rect x="792" y="332" width="16" height="16" fill="white"/>
+      
+      <!-- Survey Form -->
+      <circle cx="800" cy="390" r="20" fill="#dc3545"/>
+      <rect x="795" y="382" width="10" height="16" fill="white"/>
+      <line x1="795" y1="386" x2="805" y2="386" stroke="#dc3545" stroke-width="0.5"/>
+      <line x1="795" y1="390" x2="805" y2="390" stroke="#dc3545" stroke-width="0.5"/>
+      
+      <!-- Tracking -->
+      <circle cx="800" cy="440" r="20" fill="#dc3545"/>
+      <path d="M 795 440 L 805 430 L 805 450 Z" fill="white"/>
+      
+      <!-- Close -->
+      <circle cx="800" cy="520" r="22" fill="#dc3545"/>
+      <line x1="790" y1="510" x2="810" y2="530" stroke="white" stroke-width="3" stroke-linecap="round"/>
+      <line x1="810" y1="510" x2="790" y2="530" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Bottom navbar -->
+    <rect x="445" y="558" width="390" height="92" fill="#1a1a1a" rx="0 0 35 35"/>
+    <text x="550" y="605" font-family="Arial" font-size="24" fill="#999">≡</text>
+  </g>
+  
+  <!-- Info text -->
+  <text x="640" y="680" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#2d1810" text-anchor="middle">Geospatial Survey - Mobile Data Collection</text>
+  <text x="640" y="705" font-family="Inter, sans-serif" font-size="12" fill="#666" text-anchor="middle">Map Editing • Digitization • Real-time Tracking</text>
+</svg>

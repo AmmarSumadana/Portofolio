@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Muhammad Ammar Sumadana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="CV-Muhammad%20Ammar%20Sumadana.pdf" target="_blank" title="Download CV">Muhammad Ammar</a>
+      <nav class="nav">
+        <a href="#projects" data-i18n="nav-projects">Projects</a>
+        <a href="#skills" data-i18n="nav-skills">Skills</a>
+        <a href="#about" data-i18n="nav-about">About</a>
+        <a href="#contact" data-i18n="nav-contact">Contact</a>
+      </nav>
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <button id="langToggle" class="btn btn-ghost" aria-label="Toggle language">🌐 EN</button>
+        <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle dark mode">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1><span data-i18n="hero-hello">Hello, I am</span> <span class="accent" data-i18n="hero-role">Full-Stack Programmer</span></h1>
+          <p class="lead" data-i18n="hero-desc">I build scalable web applications, from modern frontend to robust backend. With experience in JavaScript, React, Node.js, and database design.</p>
+          <p>
+            <a href="#projects" class="btn btn-primary" data-i18n="hero-btn-projects">View Projects</a>
+            <a href="#contact" class="btn btn-outline" data-i18n="hero-btn-contact">Contact Me</a>
+          </p>
+        </div>
+        <div class="hero-art">
+          <img src="assets/Muhammad%20Ammar.png" alt="Muhammad Ammar" width="280" height="280" style="border-radius: 8px; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projects-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <article class="card">
+            <img src="assets/project1.svg" alt="Smart Clinic" class="card-art">
+            <div class="card-body">
+              <h3 data-i18n="p1-title">Smart Clinic - e-Health</h3>
+              <p data-i18n="p1-desc">Integrated healthcare management platform with complete dashboard. Features: E-Prescription, Medical Check, Hospital Registration, Doctor Consultation, Lab Tests, Ambulance Service, Health, Hospitalization, Medical History. Built with Laravel & Blade templates.</p>
+              <p class="tags"><span>#Laravel</span> <span>#PHP</span> <span>#Blade</span> <span>#Healthcare</span></p>
+              <p class="card-actions"><a href="https://github.com/AmmarSumadana/smartclinic/tree/smartclinicfinal" target="_blank" class="btn btn-sm">GitHub</a> <a href="https://github.com/AmmarSumadana/smartclinic/tree/smartclinicfinal" target="_blank" class="btn btn-ghost btn-sm" data-i18n="btn-live">Live</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project2.svg" alt="Geospatial Survey" class="card-art">
+            <div class="card-body">
+              <h3 data-i18n="p2-title">Geospatial Survey Mobile App</h3>
+              <p data-i18n="p2-desc">Mobile application for geographic data collection and area analysis. Responsive interface with intuitive navigation, profile management, and data visualization. Complete documentation available on Google Drive.</p>
+              <p class="tags"><span>#Mobile</span> <span>#GIS</span> <span>#Data Collection</span></p>
+              <p class="card-actions"><a href="https://drive.google.com/file/d/1qN8ooL1OMNWUqrWn2QMP4VVkC7YqWHOu/view?usp=drive_link" target="_blank" class="btn btn-sm" data-i18n="btn-docs">View Docs</a> <a href="https://drive.google.com/file/d/1qN8ooL1OMNWUqrWn2QMP4VVkC7YqWHOu/view?usp=drive_link" target="_blank" class="btn btn-ghost btn-sm" data-i18n="btn-download">Download</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/project3.png" alt="WebGIS Dusun Teluk" class="card-art">
+            <div class="card-body">
+              <h3 data-i18n="p3-title">WebGIS - Interactive Map Dusun Teluk</h3>
+              <p data-i18n="p3-desc">Professional WebGIS platform with interactive mapping using Leaflet. Features: Map Legend, Layer Management, Statistics, Gallery, Community Potential. Complete spatial analysis with multiple data layers for planning and decision support.</p>
+              <p class="tags"><span>#HTML</span> <span>#JavaScript</span> <span>#Leaflet</span> <span>#GIS</span></p>
+              <p class="card-actions"><a href="https://github.com/AmmarSumadana/FINAL_FINAL_TELUK_PKL-2" target="_blank" class="btn btn-sm">GitHub</a> <a href="https://github.com/AmmarSumadana/FINAL_FINAL_TELUK_PKL-2" target="_blank" class="btn btn-ghost btn-sm" data-i18n="btn-code">Code</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about-title">About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p data-i18n="about-desc1">I am a developer focused on creating robust, user-friendly, and scalable web and mobile solutions. With experience using various tech stacks like PHP/Laravel, HTML/CSS/JavaScript, and Ionic framework.</p>
+            <p data-i18n="about-desc2">I am passionate about problem solving, clean code, and continuous learning. I enjoy working with teams and also independently completing projects.</p>
+          </div>
+          <div>
+            <h3 data-i18n="about-skills-title">Key Skills</h3>
+            <ul class="skill-list">
+              <li data-i18n="skill-web">Web Development</li>
+              <li data-i18n="skill-mobile">Mobile Apps</li>
+              <li data-i18n="skill-backend">Backend Systems</li>
+              <li data-i18n="skill-db">Database Design</li>
+              <li data-i18n="skill-problem">Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skills-title">Tech Stack</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 data-i18n="skills-frontend">Frontend</h3>
+            <div class="tech-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span data-i18n="skills-responsive">Responsive Design</span>
+              <span data-i18n="skills-animation">Web Animation</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 data-i18n="skills-backend">Backend & CMS</h3>
+            <div class="tech-tags">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>Blade Templates</span>
+              <span data-i18n="skills-db">Database Design</span>
+              <span>REST API</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 data-i18n="skills-mobile">Mobile & Tools</h3>
+            <div class="tech-tags">
+              <span>Ionic</span>
+              <span>TypeScript</span>
+              <span>Git & GitHub</span>
+              <span>WebGIS</span>
+              <span data-i18n="skills-problem">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contact-title">Get In Touch</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form">
+            <label data-i18n="form-name">Name <input type="text" name="name" required></label>
+            <label data-i18n="form-email">Email <input type="email" name="email" required></label>
+            <label data-i18n="form-message">Message <textarea name="message" rows="5" placeholder="" required></textarea></label>
+            <button type="submit" class="btn btn-primary" data-i18n="form-send">Send Message</button>
+          </form>
+          <div class="contact-info">
+            <h3 style="margin-top:0" data-i18n="contact-email-title">📧 Email</h3>
+            <p><a href="mailto:ammarsumadana10@gmail.com">ammarsumadana10@gmail.com</a></p>
+            <p><a href="mailto:muhammadammarsumadan@mail.ugm.ac.id">muhammadammarsumadan@mail.ugm.ac.id</a></p>
+            
+            <h3 style="margin-top:1.5rem" data-i18n="contact-phone-title">📱 Contact</h3>
+            <p><a href="tel:+6282324083982">082324083982</a></p>
+            
+            <hr style="opacity:0.2;margin:1rem 0">
+            
+            <h3 style="margin:1rem 0 0.75rem 0" data-i18n="contact-social-title">🔗 Social Links</h3>
+            <p><a href="https://github.com/AmmarSumadana" target="_blank">GitHub: AmmarSumadana</a></p>
+            <p><a href="https://www.linkedin.com/in/muhammad-ammar-sumadana?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn: Muhammad Ammar Sumadana</a></p>
+            <p><a href="https://instagram.com/damarwijaya.s" target="_blank">Instagram: @damarwijaya.s</a></p>
+            
+            <hr style="opacity:0.2;margin:1rem 0">
+            <p style="font-size:0.85rem" data-i18n="contact-footer">Location: Indonesia | Response: &lt;24 hours</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Muhammad Ammar Sumadana — Full-Stack Developer</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

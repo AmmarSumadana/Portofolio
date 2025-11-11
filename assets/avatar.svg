@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Clean white background (like photo) -->
+  <rect width="280" height="280" fill="#ffffff"/>
+  
+  <!-- Subtle ground shadow -->
+  <ellipse cx="140" cy="270" rx="85" ry="8" fill="black" opacity="0.08"/>
+  
+  <!-- Head - warm brown skin tone -->
+  <circle cx="140" cy="75" r="45" fill="#c89968"/>
+  
+  <!-- Hair - dark black -->
+  <ellipse cx="140" cy="50" rx="48" ry="32" fill="#0d0d0d"/>
+  <path d="M 95 75 Q 95 40 140 32 Q 185 40 185 75" fill="#0d0d0d"/>
+  
+  <!-- Ears -->
+  <ellipse cx="98" cy="75" rx="11" ry="16" fill="#b88456"/>
+  <ellipse cx="182" cy="75" rx="11" ry="16" fill="#b88456"/>
+  
+  <!-- Face -->
+  <circle cx="140" cy="85" r="43" fill="none" stroke="#b88456" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Eyes - kind, warm expression -->
+  <circle cx="122" cy="70" r="6" fill="#3d2817"/>
+  <circle cx="122" cy="70" r="3.5" fill="#1a0f08"/>
+  <circle cx="124" cy="67" r="2" fill="white"/>
+  
+  <circle cx="158" cy="70" r="6" fill="#3d2817"/>
+  <circle cx="158" cy="70" r="3.5" fill="#1a0f08"/>
+  <circle cx="160" cy="67" r="2" fill="white"/>
+  
+  <!-- Eyebrows - natural, slightly curved -->
+  <path d="M 110 58 Q 122 54 132 58" stroke="#0d0d0d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 148 58 Q 158 54 170 58" stroke="#0d0d0d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <line x1="140" y1="70" x2="140" y2="90" stroke="#b88456" stroke-width="1.5"/>
+  <circle cx="135" cy="90" r="2" fill="#9d6f4f"/>
+  <circle cx="145" cy="90" r="2" fill="#9d6f4f"/>
+  
+  <!-- Mouth - friendly smile -->
+  <path d="M 122 100 Q 140 110 158 100" stroke="#a87050" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 122 100 Q 140 108 158 100" fill="#c89968" opacity="0.3"/>
+  
+  <!-- Cheek blush -->
+  <circle cx="105" cy="85" r="9" fill="#e8a88a" opacity="0.35"/>
+  <circle cx="175" cy="85" r="9" fill="#e8a88a" opacity="0.35"/>
+  
+  <!-- Neck -->
+  <rect x="130" y="110" width="20" height="18" fill="#c89968"/>
+  
+  <!-- White undershirt/shirt collar -->
+  <path d="M 115 128 L 100 155 L 110 158 L 130 130" fill="white"/>
+  <path d="M 165 128 L 180 155 L 170 158 L 150 130" fill="white"/>
+  <rect x="128" y="128" width="24" height="20" fill="white"/>
+  
+  <!-- Olive/Tan jacket - structured with proper proportions -->
+  <path d="M 80 125 Q 75 140 80 175 Q 90 185 105 185 L 135 130" fill="#8b8b5f" filter="url(#shadow)"/>
+  <path d="M 200 125 Q 205 140 200 175 Q 190 185 175 185 L 145 130" fill="#8b8b5f" filter="url(#shadow)"/>
+  
+  <!-- Jacket chest panel (darker shade) -->
+  <path d="M 100 130 Q 110 135 110 170 L 105 175 Q 100 172 100 160 Z" fill="#7a7a4f" opacity="0.5"/>
+  <path d="M 180 130 Q 170 135 170 170 L 175 175 Q 180 172 180 160 Z" fill="#7a7a4f" opacity="0.5"/>
+  
+  <!-- Jacket lapels -->
+  <polygon points="110,125 100,155 120,160 125,130" fill="#6a6a3f"/>
+  <polygon points="170,125 180,155 160,160 155,130" fill="#6a6a3f"/>
+  
+  <!-- Tie - dark formal -->
+  <polygon points="135,115 145,115 148,132 140,128 132,132" fill="#3d3d2f"/>
+  
+  <!-- Flower bouquet - realistic arrangement -->
+  <!-- Stems and leaves -->
+  <line x1="185" y1="160" x2="230" y2="225" stroke="#2d5a2d" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="188" y1="163" x2="240" y2="235" stroke="#2d5a2d" stroke-width="3" stroke-linecap="round"/>
+  <line x1="182" y1="161" x2="220" y2="235" stroke="#2d5a2d" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="190" y1="165" x2="235" y2="245" stroke="#2d5a2d" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Leaves along stems -->
+  <ellipse cx="205" cy="180" rx="4" ry="14" fill="#3d7a3d" transform="rotate(-35 205 180)" opacity="0.8"/>
+  <ellipse cx="215" cy="195" rx="4" ry="14" fill="#4a9a4a" transform="rotate(25 215 195)" opacity="0.8"/>
+  <ellipse cx="210" cy="210" rx="4" ry="14" fill="#3d7a3d" transform="rotate(-20 210 210)" opacity="0.8"/>
+  <ellipse cx="225" cy="220" rx="4" ry="14" fill="#4a9a4a" transform="rotate(30 225 220)" opacity="0.8"/>
+  
+  <!-- Main yellow flowers (Chrysanthemum-like) -->
+  <!-- Flower 1 - top center yellow -->
+  <g transform="translate(215, 145)">
+    <circle cx="0" cy="0" r="12" fill="#ffd700"/>
+    <!-- Petals -->
+    <circle cx="-8" cy="-8" r="5.5" fill="#ffed4e"/>
+    <circle cx="8" cy="-8" r="5.5" fill="#ffed4e"/>
+    <circle cx="-8" cy="8" r="5.5" fill="#ffed4e"/>
+    <circle cx="8" cy="8" r="5.5" fill="#ffed4e"/>
+    <circle cx="0" cy="-9" r="5.5" fill="#ffed4e"/>
+    <circle cx="0" cy="9" r="5.5" fill="#ffed4e"/>
+    <circle cx="-9" cy="0" r="5.5" fill="#ffed4e"/>
+    <circle cx="9" cy="0" r="5.5" fill="#ffed4e"/>
+    <!-- Center -->
+    <circle cx="0" cy="0" r="4.5" fill="#ff9800"/>
+  </g>
+  
+  <!-- Flower 2 - left cluster yellow -->
+  <g transform="translate(200, 168)">
+    <circle cx="0" cy="0" r="10" fill="#ffd700"/>
+    <circle cx="-6" cy="-6" r="4.5" fill="#ffed4e"/>
+    <circle cx="6" cy="-6" r="4.5" fill="#ffed4e"/>
+    <circle cx="-6" cy="6" r="4.5" fill="#ffed4e"/>
+    <circle cx="6" cy="6" r="4.5" fill="#ffed4e"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ff9800"/>
+  </g>
+  
+  <!-- Flower 3 - right yellow -->
+  <g transform="translate(238, 160)">
+    <circle cx="0" cy="0" r="10" fill="#ffd700"/>
+    <circle cx="-6" cy="-6" r="4.5" fill="#ffed4e"/>
+    <circle cx="6" cy="-6" r="4.5" fill="#ffed4e"/>
+    <circle cx="-6" cy="6" r="4.5" fill="#ffed4e"/>
+    <circle cx="6" cy="6" r="4.5" fill="#ffed4e"/>
+    <circle cx="0" cy="0" r="3.5" fill="#ff9800"/>
+  </g>
+  
+  <!-- Pink/Coral carnation-like flowers -->
+  <!-- Flower 4 - pink lower left -->
+  <g transform="translate(210, 195)">
+    <circle cx="0" cy="0" r="9" fill="#ff99bb"/>
+    <circle cx="-5.5" cy="-5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="5.5" cy="-5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="-5.5" cy="5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="5.5" cy="5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="0" cy="-6" r="4" fill="#ffb3d9"/>
+    <circle cx="0" cy="6" r="4" fill="#ffb3d9"/>
+    <circle cx="0" cy="0" r="3" fill="#ff6b9d"/>
+  </g>
+  
+  <!-- Flower 5 - pink center -->
+  <g transform="translate(225, 205)">
+    <circle cx="0" cy="0" r="9" fill="#ff99bb"/>
+    <circle cx="-5.5" cy="-5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="5.5" cy="-5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="-5.5" cy="5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="5.5" cy="5.5" r="4" fill="#ffb3d9"/>
+    <circle cx="0" cy="0" r="3" fill="#ff6b9d"/>
+  </g>
+  
+  <!-- Flower 6 - extra yellow accent right -->
+  <g transform="translate(240, 180)">
+    <circle cx="0" cy="0" r="8" fill="#ffd700"/>
+    <circle cx="-5" cy="-5" r="3.5" fill="#ffed4e"/>
+    <circle cx="5" cy="-5" r="3.5" fill="#ffed4e"/>
+    <circle cx="-5" cy="5" r="3.5" fill="#ffed4e"/>
+    <circle cx="5" cy="5" r="3.5" fill="#ffed4e"/>
+    <circle cx="0" cy="0" r="2.5" fill="#ff9800"/>
+  </g>
+  
+  <!-- Hand holding flowers -->
+  <ellipse cx="185" cy="160" rx="20" ry="28" fill="#c89968"/>
+  
+  <!-- Fingers/hand details -->
+  <circle cx="172" cy="152" r="7" fill="#c89968"/>
+  <circle cx="197" cy="150" r="7" fill="#c89968"/>
+  <circle cx="202" cy="170" r="6" fill="#c89968"/>
+  <circle cx="168" cy="175" r="6" fill="#c89968"/>
+</svg>
+</svg>
